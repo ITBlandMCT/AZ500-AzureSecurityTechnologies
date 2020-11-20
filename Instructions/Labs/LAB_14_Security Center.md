@@ -42,25 +42,25 @@ In this task, you will on-board and configure Security Center.
 
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Security Center** and press the **Enter** key.
 
-1. On the **Security Center \| Getting started** blade, click **Upgrade** and then click **Install agents**.
+1. On the **Security Center \| Getting started** blade, select the checkbox for your workspace and then click **Upgrade** at the bottom of the blade.
      
-1. On the **Security Center \| Getting started** blade, click **Pricing & settings**.
+1. On the **Security Center \| Getting started** blade, verify that **Install agents automatically** is selected and then click the **Pricing & settings page** link at the right.
 
-1. Click the entry representing your subscription and, on the **Settings \| Azure Defender Plans** blade, ensure that **Azure Defender on** is selected. 
+1. Click the entry representing your subscription and, on the **Settings \| Azure Defender Plans** blade, ensure that **Enable Azure Defender** is selected. 
 
     >**Note**: Review all the features that are available as part of Azure Defender tier and ensure that Azure Defender turned on for each resource type. 
 
 1. If you made any changes, click **Save**.
 
-1. On the **Settings** blade, click **Data Collection**.
+1. On the **Settings \| Azure Defender Plans** blade, under **Settings**, click **Auto provisioning**.
 
-1. On the **Settings \| Data Collection** blade, set **Auto provisioning** to **On**. 
+1. On the **Settings \| Auto provisioning** blade, verify that **Log Analytics agent for Azure VMs** is **On** and click the **Edit configuration** link at right.
 
-1. On the **Settings \| Data Collection** blade, in the **Workspace configuration** section, select the **Use another workspace** option and, in the drop-down list, select the Log Analytics workspace you created in the previous lab. 
+1. On the **Extension deployment configuration** blade, in the **Workspace configuration** section, select the **Connect Azure VMs to a different workspace** option and, in the drop-down list, select the Log Analytics workspace you created in the previous lab, select the **Apply workspace configuration to monitored VMs** check box, and then click **Apply**. 
 
-1. On the **Settings \| Data Collection** blade, click **Save**.
+1. On the **Settings \| Auto provisioning** blade, click **Save**.
 
-1. On the **Settings** blade, click **Workflow automation**.
+1. On the **Settings \| Auto provisioning** blade, under **Settings**, click **Workflow automation**.
 
 1. On the **Settings \| Workflow automation** blade, click **+ Add workflow automation**.
 
@@ -78,14 +78,14 @@ In this task, you will implement the Security Center recommendation to install e
 
 1. In the Azure portal, navigate back to the **Security Center \| Overview** blade. 
 
-1. On the **Security Center \| Overview** blade, in the **POLICY & COMPLIANCE** section, click **Secure Score**. 
+1. On the **Security Center \| Overview** blade, in the **Cloud Security** section, click **Secure Score**. 
 
     >**Note**: Record the current score.
 
-1. On the **Cloud Security \| Secure Score** blade, click on your **subscription**.
+1. On the **Security Center \| Secure Score** blade, scroll down and click on your **subscription**.
 
 
-1. On the **Recommendations** blade, click the **Enable endpoint protection** control, and then click the **Install endpoint protection solution on virtual machines** entry.
+1. On the **Recommendations** blade, scroll down and expand the **Enable endpoint protection** control, and then click the **Install endpoint protection solution on virtual machines** entry.
 
 1. Select the **myVM** entry.
 
@@ -102,9 +102,9 @@ In this task, you will implement the Security Center recommendation to install e
 
 In this task, you will implement the Security Center recommendation to enable Just in time VM Access on the virtual machine. 
 
-1. In the Azure portal, navigate back to the **Security Center \| Overview** blade. 
+1. In the Azure portal, navigate back to the **Security Center \| Overview** blade and, under **Cloud Security**, click **Azure Defender**. 
 
-1. On the **Cloud Security \| Azure Defender** blade, click the **Just-in-time- VM access** tab, select **Not Configured** and then click the **myVM** entry.
+1. On the **Cloud Security \| Azure Defender** blade, scroll down and under **Advanced Protection**, click the **Just-in-time- VM access** card, select the **Not Configured** tab and then select the checkbox for the **myVM** entry.
 
 1. Select **Enable JIT on 1 VM**.
 

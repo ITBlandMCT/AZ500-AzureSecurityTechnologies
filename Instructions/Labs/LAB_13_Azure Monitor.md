@@ -153,6 +153,8 @@ In this task, you will run a log search on your data collection.
 
 1. On the **Example queries** pane, click **Virtual machine**
 
+    >**Note**: You may need to close the **Resource Type** filter at the top-center of the **Queries** pane to see the list of resource types at the left.
+
 1. Review the list of predefined queries, identify the one you want to test, and click the corresponding **Run** button.
 
     >**Note**: You can start with the query **Virtual machine available memory**.

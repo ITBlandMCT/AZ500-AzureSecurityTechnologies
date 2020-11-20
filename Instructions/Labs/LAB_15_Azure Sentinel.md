@@ -108,7 +108,7 @@ In this task, you will review and create a rule that uses the Azure Activity dat
 
 In this task, you will create a playbook. A security playbook is a collection of tasks that can be invoked by Azure Sentinel in response to an alert. 
 
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy a custom template** and press the **Enter** key.
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Deploy** and the select **Deploy a custom template** from the list of **Services**.
 
 1. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
 
@@ -128,7 +128,7 @@ In this task, you will create a playbook. A security playbook is a collection of
     |Playbook Name|**Change-Incident-Severity**|
     |User Name|your email address|
 
-1. Click the **I agree to the terms and conditions stated above** checkbox, and click **Purchase**.
+1. Click **Review + create**, and then click **Create**.
 
     >**Note**: Wait for the deployment to complete.
 
@@ -158,7 +158,7 @@ In this task, you will create a playbook. A security playbook is a collection of
 
 1. In the Azure portal, navigate back to the **Azure Sentinel \| Overview** blade.
 
-1. On the the **Azure Sentinel \| Overview** blade, in the **Configuration** section, click **Analytics**.
+1. On the **Azure Sentinel \| Overview** blade, in the **Configuration** section, click **Analytics**.
 
 1. On the **Azure Sentinel \| Analytics** blade, click **+ Create** and, in the drop-down menu, click **Scheduled query rule**. 
 
@@ -198,7 +198,7 @@ In this task, you will create a playbook. A security playbook is a collection of
 
 #### Task 6: Invoke an incident and review the associated actions.
 
-1. In the Azure portal, navigate to the **Security Center \| Overview** blade.
+1. In the Azure portal, navigate to the **Security Center \| Overview** blade, and under **Cloud Security**, click **Azure Defender**.
 
     >**Note**: Check your secure score. By now it should have updated. 
 
