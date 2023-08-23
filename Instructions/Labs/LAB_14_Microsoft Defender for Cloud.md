@@ -104,10 +104,10 @@ In this task, you will implement the Microsoft Defender for Cloud recommendation
 
 6. On the **JIT VM access configuration** blade, click **Save**.
 
-    >**Note**: Monitor the progress of configuration by clicking on the **Notifications** icon in the toolbar and viewing the **Notifications** blade. 
+   >**Note**: Monitor the progress of configuration by clicking on the **Notifications** icon in the toolbar and viewing the **Notifications** blade. 
 
-    >**Note**: It can take some time for the implementation of recommendations in this lab to be reflected by Secure Score. Periodically check the Secure Score to determine the impact of implementing these features. 
+   >**Note**: It can take some time for the implementation of recommendations in this lab to be reflected by Secure Score. Periodically check the Secure Score to determine the impact of implementing these features. 
 
 > Results: You have on-boarded Microsoft Defender for Cloud and implemented virtual machine recommendations. 
 
-    >**Note**: Do not remove the resources from this lab as they are needed for the Microsoft Sentinel lab.
+   >**Note**: Do not remove the resources from this lab as they are needed for the Microsoft Sentinel lab.
