@@ -157,15 +157,15 @@ In this task, you will create a default route for the **Workload-SN** subnet. Th
 
 9. Back on the **Firewall-route** blade, in the **Settings** section, click **Routes** and then click **+ Add**. 
 
-10. On the **Add route** blade, specify the following settings:  
+10. On the **Add route** blade, specify the following settings:
 
-   |Setting|Value|
-   |---|---|
-   |Route name|**FW-DG**|
-   |Address prefix destination|**IP Address**|
-   |Destination IP addresses/CIDR ranges|**0.0.0.0/0**
-   |Next hop type|**Virtual appliance**|
-   |Next hop address|the private IP address of the firewall that you identified in the previous task|
+    |Setting|Value|
+    |---|---|
+    |Route name|**FW-DG**|
+    |Address prefix destination|**IP Address**|
+    |Destination IP addresses/CIDR ranges|**0.0.0.0/0**
+    |Next hop type|**Virtual appliance**|
+    |Next hop address|the private IP address of the firewall that you identified in the previous task|
 
     >**Note**: Azure Firewall is actually a managed service, but virtual appliance works in this situation.
 	
@@ -264,18 +264,17 @@ In this task, you will test the firewall to confirm that it works as expected.
 
 2. On the **AZ500LAB08** blade, in the list of resources, click the **Srv-Jump** virtual machine.
 
-3. On the **Srv-Jump** blade, click **Connect** and, in the drop down menu, click **RDP**. 
+3. On the **Srv-Jump** blade, click **Connect** and clicking **Select** in the box that says Native RDP. 
 
-4. Click **Download RDP File** and use it to connect to the **Srv-Jump** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credntials:
+4. From the Native RDP window that opens, select **Download RDP file**.
+    1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
+    1. A Remote Desktop Connection window opens; select **Connect**.
+    1. You'll be prompted for your credentials.  Enter the Username: **localadmin** and Password: **Pa55w.rd1234**.
+    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
-   |Setting|Value|
-   |---|---|
-   |User name|**localadmin**|
-   |Password|**Pa55w.rd1234**|
+   >**Note**: The following steps are performed in the Remote Desktop session to the **Srv-Jump** Azure VM. 
 
-    >**Note**: The following steps are performed in the Remote Desktop session to the **Srv-Jump** Azure VM. 
-
-    >**Note**: You will connect to the **Srv-Work** virtual machine. This is being done so we can test the ability to access the bing.com website.  
+   >**Note**: You will connect to the **Srv-Work** virtual machine. This is being done so we can test the ability to access the bing.com website.  
 
 5. Within the Remote Desktop session to **Srv-Jump**, right-click **Start**, in the right-click menu, click **Run**, and, from the **Run** dialog box, run the following to connect to **Srv-Work**. 
 
