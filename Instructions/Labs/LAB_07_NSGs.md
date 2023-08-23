@@ -289,14 +289,15 @@ In this task, you will test the network traffic filters. You should be able to R
 
 1. Navigate back to the **myVMMgmt** virtual machine blade.
 
-2. On the **myVMMgmt** blade, click **Connect** and, in the drop down menu, click **RDP**. 
+2. On the **myVMMgmt** blade, click **Connect**. 
 
-3. Click **Download RDP File** and use it to connect to the **myVMMgmt** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credntials:
-
-   |Setting|Value|
-   |---|---|
-   |User name|**Student**|
-   |Password|**Please use your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9.**|
+3. Now connect directly to the VM by clicking **Select** in the box that says Native RDP.
+   
+    1. From the Native RDP window that opens, select **Download RDP file**.
+    1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
+    1. A Remote Desktop Connection window opens; select **Connect**.
+    1. You'll be prompted for your credentials.  Enter the Username: **Student** and **use your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9.**.
+    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
     >**Note**: Verify that the Remote Desktop connection was successful. At this point you have confirmed you can connect via Remote Desktop to myVMMgmt.
 
