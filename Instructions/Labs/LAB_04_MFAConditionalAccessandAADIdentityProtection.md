@@ -507,14 +507,15 @@ In this task, you will create a user risk policy.
 
 3. On the **Virtual machines** blade, click the **az500-04-vm1** entry. 
 
-4. On the **az500-04-vm1** blade, click **Connect**. Confirm that you are on the **RDP** tab.
+4. On the **az500-04-vm1** blade, click **Connect**.
 
-5. Click **Download RDP File** and use it to connect to the **az500-04-vm1** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credentials:
-
-    |Setting|Value|
-    |---|---|
-    |User name|**Student**|
-    |Password|**Please use your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9.**|
+5. Click **Select** in the box that says Native RDP.
+   
+    1. From the Native RDP window that opens, select **Download RDP file**.
+    1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
+    1. A Remote Desktop Connection window opens; select **Connect**.
+    1. You'll be prompted for your credentials.  Enter the Username **Student** and **use your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9**.
+    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
     >**Note**: Wait for the Remote Desktop session and **Server Manager** to load.  
 
