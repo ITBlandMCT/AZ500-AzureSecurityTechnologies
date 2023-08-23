@@ -325,7 +325,7 @@ The ARM-template deployment in Exercise 1 provisioned an Azure SQL Server instan
 
 In this task, you log on to the Azure VM, which deployment you initiated in Exercise 1. This Azure VM hosts Visual Studio 2019 and SQL Server Management Studio 19.
 
-    >**Note**: Before you proceed with this task, ensure that the deployment you initiated in the first exercise has completed successfully. You can validate this by navigating to the blade of the Azure resource group "Az500Lab10" (or other name you chose) and selecting **Deployments** from the Settings pane.  
+   >**Note**: Before you proceed with this task, ensure that the deployment you initiated in the first exercise has completed successfully. You can validate this by navigating to the blade of the Azure resource group "Az500Lab10" (or other name you chose) and selecting **Deployments** from the Settings pane.  
 
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **virtual machines** and press the **Enter** key.
 
@@ -351,14 +351,13 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
     >**Note**: This modifies the server firewall settings, allowing connections to the medical database from the Azure VM's public IP address you deployed in this lab.
 
-4. Navigate back to the **az500-10-vm1** blade, click **Overview**, next click **Connect** and, in the drop down menu, click **RDP**. 
+4. Navigate back to the **az500-10-vm1** blade, click **Overview**, next click **Select** in the box that says Native RDP. 
 
-5. Click **Download RDP File** and use it to connect to the **az500-10-vm1** Azure VM via Remote Desktop. When prompted to authenticate, provide the following credntials:
-
-    |Setting|Value|
-    |---|---|
-    |User name|**Student**|
-    |Password|**Please use your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9.**|
+5. From the Native RDP window that opens, select **Download RDP file**.
+    1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
+    1. A Remote Desktop Connection window opens; select **Connect**.
+    1. You'll be prompted for your credentials.  Enter the Username **Student** and **your personal password created in Lab 04 > Exercise 1 > Task 1 > Step 9.**.
+    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
     >**Note**: Wait for the Remote Desktop session and **Server Manager** to load. Close Server Manager. 
 
